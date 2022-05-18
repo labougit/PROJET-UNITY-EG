@@ -996,7 +996,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0d6e7049cf6eb4a45afe016a025e4704, type: 2}
+  - {fileID: 2100000, guid: f991c1cd557e95f4d80bba54f5b172df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1055,6 +1055,7 @@ MonoBehaviour:
   player: {fileID: 870861841}
   playerCam: {fileID: 866109233}
   throwForce: 500
+  rota: 10
 --- !u!135 &1846366734
 SphereCollider:
   m_ObjectHideFlags: 0
