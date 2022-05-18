@@ -9,6 +9,7 @@ public class PickableObject : MonoBehaviour
     public Transform player;
     public Transform playerCam;
     public float throwForce = 10;
+    public float rota = 10;
 
     private bool hasPlayer = false;
     private bool beingCarried = false;
@@ -49,6 +50,30 @@ public class PickableObject : MonoBehaviour
                 touched = false;
             }
 
+            // R= on fait tourner suivant y
+            if (Input.GetKey(KeyCode.R))
+            {
+
+                GetComponent<Rigidbody>().transform.Rotate(0, 0.5f, 0);
+               
+            }
+
+            // R= on fait tourner suivant x
+            if (Input.GetKey(KeyCode.T))
+            {
+
+                GetComponent<Rigidbody>().transform.Rotate(0.5f, 0, 0);
+
+            }
+            // R= on fait tourner suivant z
+            if (Input.GetKey(KeyCode.Y))
+            {
+
+                GetComponent<Rigidbody>().transform.Rotate(0, 0, 0.5f);
+
+            }
+
+
             // Clique gauche = on jette l'objet
             if (Input.GetMouseButtonDown(0))
             {
@@ -57,6 +82,9 @@ public class PickableObject : MonoBehaviour
                 beingCarried = false;
                 GetComponent<Rigidbody>().AddForce(playerCam.forward * throwForce);
             }
+
+
+
             // clique droit on pose l'objet
             else if (Input.GetMouseButtonDown(1))
             {
