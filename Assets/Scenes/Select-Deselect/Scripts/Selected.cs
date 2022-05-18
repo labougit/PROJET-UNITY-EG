@@ -78,14 +78,14 @@ public class Selected : MonoBehaviour
         Rect rect = new Rect(Screen.width / 2, Screen.height / 2, 50f, 50f);
         GUI.DrawTexture(rect, point);
 
-       // if (Recofinal)
-        //{
+        if (Recofinal)
+        {
             TextDetect.SetActive(true);
-        //}
-       /* else
+        }
+        else
         {
             TextDetect.SetActive(false);
-        }*/
+        }
     }
 
 
