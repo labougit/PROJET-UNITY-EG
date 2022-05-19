@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SystemDoor : MonoBehaviour
+public class tiroir : MonoBehaviour
 {
-    public bool doorOpen = false;
+    public bool tiroirouvert = false;
     public float doorOpenAngle = 95f;
     public float doorCloseAngle = 0.0f;
 
 
     public float smooth = 3.0f;
 
-    public AudioClip openDoor;
-    public AudioClip closeDoor;
+    public AudioClip opentiroir;
+    public AudioClip closetiroir;
 
 
     // Start is called before the first frame update
@@ -23,7 +23,7 @@ public class SystemDoor : MonoBehaviour
 
     public void ChangeDoorState()
     {
-        doorOpen = !doorOpen;
+        tiroirouvert = !tiroirouvert ;
 
     }
 
@@ -34,7 +34,7 @@ public class SystemDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(doorOpen)
+        if(tiroirouvert )
         {
             Quaternion targetRotation = Quaternion.Euler(0, doorOpenAngle, 0);
             transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, smooth * Time.deltaTime);
@@ -51,7 +51,7 @@ public class SystemDoor : MonoBehaviour
     {
         if (other.tag == "triggerdoor")
         {
-            AudioSource.PlayClipAtPoint(closeDoor, transform.position, 1);
+            AudioSource.PlayClipAtPoint(closetiroir, transform.position, 1);
         }
     }
 
@@ -59,7 +59,7 @@ public class SystemDoor : MonoBehaviour
     {
         if (other.tag == "triggerdoor")
         {
-            AudioSource.PlayClipAtPoint(openDoor, transform.position, 1);
+            AudioSource.PlayClipAtPoint(opentiroir, transform.position, 1);
         }
     }
 

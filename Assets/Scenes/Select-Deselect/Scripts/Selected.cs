@@ -41,7 +41,7 @@ public class Selected : MonoBehaviour
 
                 if(Input.GetKeyDown(KeyCode.E))
                 {
-                    hit.collider.transform.GetComponent<Objetinteractif>().activerobjet();
+                   // hit.collider.transform.GetComponent<Objetinteractif>().activerobjet();
 
 
                 }
@@ -50,18 +50,7 @@ public class Selected : MonoBehaviour
             }
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * distance, Color.red);
 
-            if (hit.collider.tag == "door")
-            {
-
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    hit.collider.transform.GetComponent<SystemDoor>().ChangeDoorState();
-
-
-                }
-
-
-            }
+            
 
             if (hit.collider.tag == "doorluke")
             {
@@ -75,6 +64,21 @@ public class Selected : MonoBehaviour
 
 
             }
+
+            if (hit.collider.tag == "tiroir")
+            {
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                   // hit.collider.transform.GetComponent<tiroir>().ChangeDoorState();
+
+
+                }
+
+
+            }
+
+
         }
         else
         {
