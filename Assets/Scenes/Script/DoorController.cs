@@ -21,20 +21,6 @@ public class DoorController : MonoBehaviour
         anim.SetTrigger("Door");
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "triggerdoor")
-        {
-            AudioSource.PlayClipAtPoint(closeDoor, transform.position, 1);
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "triggerdoor")
-        {
-            AudioSource.PlayClipAtPoint(openDoor, transform.position, 1);
-        }
-    }
+  
 
 }

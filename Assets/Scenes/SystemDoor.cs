@@ -21,6 +21,16 @@ public class SystemDoor : MonoBehaviour
        
     }
 
+    public void ChangeDoorState()
+    {
+        doorOpen = !doorOpen;
+
+    }
+
+
+
+
+
     // Update is called once per frame
     void Update()
     {

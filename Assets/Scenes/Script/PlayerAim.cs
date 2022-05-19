@@ -2,8 +2,16 @@
 using UnityEngine.UI;
 
 public class PlayerAim : MonoBehaviour
+
+
+
 {
     public Transform headPos;
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip sonporte;
+    
 
     private void Update()
     {
@@ -23,6 +31,10 @@ public class PlayerAim : MonoBehaviour
                     }
                     else if(hit.transform.name=="DoorMesh")
                     {
+                        if (audioSource != null)
+                        {
+                            audioSource.PlayOneShot(sonporte);
+                        }
                         hit.transform.GetComponent<DoorController>().OpenClose();
                     }
                 }

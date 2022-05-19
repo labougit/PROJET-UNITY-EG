@@ -55,6 +55,19 @@ public class Selected : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    hit.collider.transform.GetComponent<SystemDoor>().ChangeDoorState();
+
+
+                }
+
+
+            }
+
+            if (hit.collider.tag == "doorluke")
+            {
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
                     hit.collider.transform.GetComponent<DoorController>().OpenClose();
 
 
