@@ -49,7 +49,7 @@ public class tiroir : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "triggerdoor")
+        if (other.tag == "triggertiroir")
         {
             AudioSource.PlayClipAtPoint(closetiroir, transform.position, 1);
         }
@@ -57,7 +57,7 @@ public class tiroir : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "triggerdoor")
+        if (other.tag == "triggertiroir")
         {
             AudioSource.PlayClipAtPoint(opentiroir, transform.position, 1);
         }
