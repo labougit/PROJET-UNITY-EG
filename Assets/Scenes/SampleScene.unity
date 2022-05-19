@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1013263712}
-  password: 1234
+  password: abcd
   passwordLimit: 4
   passwordText: {fileID: 1388852697}
   audioSource: {fileID: 1595044899}
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 1
+  key: a
 --- !u!114 &1062780940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1756,10 +1756,42 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1a184822f33cd1f47b7f3e349b413ba7, type: 2}
+    - target: {fileID: 930610151242563909, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: d
+      objectReference: {fileID: 0}
+    - target: {fileID: 930610151242563909, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
+    - target: {fileID: 1894128311275280166, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894128311275280166, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
     - target: {fileID: 1903731122179716820, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 74242b6d21c1bc2429a8a8a1e22391ad, type: 2}
+    - target: {fileID: 2235824507073732584, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: i
+      objectReference: {fileID: 0}
+    - target: {fileID: 2235824507073732584, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
+    - target: {fileID: 2319737104937306354, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: b
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319737104937306354, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
     - target: {fileID: 2386215013405507269, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
       propertyPath: m_TagString
       value: Objet interactif
@@ -1768,6 +1800,30 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 74242b6d21c1bc2429a8a8a1e22391ad, type: 2}
+    - target: {fileID: 2486174541390671589, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: abcd
+      objectReference: {fileID: 0}
+    - target: {fileID: 2486174541390671589, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
+    - target: {fileID: 3017374014130388165, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: h
+      objectReference: {fileID: 0}
+    - target: {fileID: 3017374014130388165, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
+    - target: {fileID: 3577784531690076517, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: d
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577784531690076517, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
     - target: {fileID: 3761653706125777593, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1776,6 +1832,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 74242b6d21c1bc2429a8a8a1e22391ad, type: 2}
+    - target: {fileID: 4495935613396442687, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: j
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495935613396442687, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
     - target: {fileID: 4593865442248586335, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1852,6 +1916,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1a184822f33cd1f47b7f3e349b413ba7, type: 2}
+    - target: {fileID: 6354594330446137497, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: f
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354594330446137497, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
     - target: {fileID: 6561236814349586084, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
       propertyPath: m_Name
       value: Keypad
@@ -1868,6 +1940,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 74242b6d21c1bc2429a8a8a1e22391ad, type: 2}
+    - target: {fileID: 7912116502052715900, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: e
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912116502052715900, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
     - target: {fileID: 8170806450003678174, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1880,6 +1960,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 74242b6d21c1bc2429a8a8a1e22391ad, type: 2}
+    - target: {fileID: 9032746193751094526, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_Text
+      value: g
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032746193751094526, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2da2117d44f17f84e84e9a7545363a23, type: 3}
     m_RemovedComponents:
     - {fileID: 7799646515135638243, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
     - {fileID: 6049725951583818543, guid: 28ee0710e298670489ce55173bc6ebe2, type: 3}
@@ -1988,7 +2076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 0
+  key: j
 --- !u!114 &1987128707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2001,7 +2089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 9
+  key: i
 --- !u!114 &1987128708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2014,7 +2102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 8
+  key: h
 --- !u!114 &1987128709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2027,7 +2115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 7
+  key: g
 --- !u!114 &1987128710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2040,7 +2128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 6
+  key: f
 --- !u!114 &1987128711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2053,7 +2141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 5
+  key: e
 --- !u!114 &1987128712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2066,7 +2154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 4
+  key: d
 --- !u!114 &1987128713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2079,7 +2167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 3
+  key: c
 --- !u!114 &1987128714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2092,7 +2180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 2
+  key: b
 --- !u!1 &2039121178 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7682330904791628080, guid: 919de420c6a19c04780c64575e277d2b, type: 3}
