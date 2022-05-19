@@ -49,6 +49,19 @@ public class Selected : MonoBehaviour
 
             }
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * distance, Color.red);
+
+            if (hit.collider.tag == "door")
+            {
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    hit.collider.transform.GetComponent<DoorController>().OpenClose();
+
+
+                }
+
+
+            }
         }
         else
         {
