@@ -5,12 +5,10 @@ using UnityEngine;
 public class tiroir : MonoBehaviour
 {
     public bool tiroirouvert = false;
-    public float doorOpenAngle = 95f;
-    public float doorCloseAngle = 0.0f;
-
+   
 
     public float smooth = 3.0f;
-
+    public Animator anim;
     public AudioClip opentiroir;
     public AudioClip closetiroir;
 
@@ -28,24 +26,16 @@ public class tiroir : MonoBehaviour
     }
 
 
-
-
-
-    // Update is called once per frame
-    void Update()
+    public void OpenClose()
     {
-        if(tiroirouvert )
-        {
-            Quaternion targetRotation = Quaternion.Euler(0, doorOpenAngle, 0);
-            transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, smooth * Time.deltaTime);
-        }
-        else
-        {
-            Quaternion targetRotation2 = Quaternion.Euler(0, doorCloseAngle, 0);
-            transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation2, smooth * Time.deltaTime);
-        }
        
+
+        anim.SetTrigger("tiroir");
     }
+
+
+
+
 
     private void OnTriggerEnter(Collider other)
     {
