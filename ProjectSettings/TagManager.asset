@@ -8,6 +8,8 @@ TagManager:
   - door
   - triggerdoor
   - doorluke
+  - tiroir
+  - triggertiroir
   layers:
   - Default
   - TransparentFX
