@@ -33,7 +33,7 @@ public class OpenBox : MonoBehaviour
         {
             for (float i = 0f; i <= 1f; i += 0.1f)
             {
-                transform.localPosition = new Vector3(transform.localPosition.x - 0.1f,
+                transform.localPosition = new Vector3(transform.localPosition.x + 0.05f,
                     transform.localPosition.y,
                     transform.localPosition.z);
                 yield return new WaitForSeconds(0f);
@@ -43,8 +43,9 @@ public class OpenBox : MonoBehaviour
         else
         {
             for (float i = 1f; i >= 0f; i -= 0.1f)
+
             {
-                transform.localPosition = new Vector3(transform.localPosition.x + 0.1f,
+                transform.localPosition = new Vector3(transform.localPosition.x - 0.05f,
                     transform.localPosition.y,
                     transform.localPosition.z);
                 yield return new WaitForSeconds(0f);
