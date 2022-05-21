@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat_lettre
+  m_Name: mat_papier
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -37,12 +37,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: -296.8, y: 190.4}
-        m_Offset: {x: 0.21, y: 8.57}
+        m_Scale: {x: -1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a348c3524304beb44af7af39c761b0df, type: 3}
-        m_Scale: {x: -296.8, y: 190.4}
-        m_Offset: {x: 0.21, y: 8.57}
+        m_Texture: {fileID: 2800000, guid: 84ecb5e79cf96a947be51d54fc124488, type: 3}
+        m_Scale: {x: -1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
