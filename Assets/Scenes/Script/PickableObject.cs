@@ -21,13 +21,15 @@ public class PickableObject : MonoBehaviour
         float dist = Vector3.Distance(gameObject.transform.position, player.position);
 
         // si - ou = 1.9 unités de distance = on peut ramasser
-        if (dist <= 5f)
+        if (dist <= 3f)
         {
             hasPlayer = true;
+            GetComponent<MeshRenderer>().material.color = Color.green;
         }
         else
         {
             hasPlayer = false;
+            GetComponent<MeshRenderer>().material.color = Color.white;
         }
 
         // si on peut ramasser et qu'on appuie sur E = on porte l'objet

@@ -21,7 +21,7 @@ public class PlayerAim : MonoBehaviour
             Debug.DrawRay(headPos.position, headPos.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
 
             float distance = Vector3.Distance(transform.position, hit.transform.position);
-            if (distance <= 3f)
+            if (distance <= 1f)
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
