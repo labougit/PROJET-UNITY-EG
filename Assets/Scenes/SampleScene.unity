@@ -5881,6 +5881,14 @@ PrefabInstance:
       propertyPath: jumpStrength
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114503055206606986, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: isGrounded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114503055206606986, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: distanceThreshold
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 114762042097486276, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: movementSpeed
       value: 2
@@ -8708,7 +8716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b36dac05608b9c44ebf302a0eb89b35d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 1.5
+  distance: 100
   point: {fileID: 2800000, guid: b1c40bab41648ca48aa0a54bd1b3f1b9, type: 3}
   TextDetect: {fileID: 17695640}
 --- !u!1001 &1834134481
