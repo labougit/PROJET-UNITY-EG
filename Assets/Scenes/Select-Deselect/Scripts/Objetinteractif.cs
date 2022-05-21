@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class Objetinteractif : MonoBehaviour
 {
-   public void activerobjet()
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip audioDestroy;
+
+    public void activerobjet()
     {
+        if (audioSource != null)
+        {
+            audioSource.PlayOneShot(audioDestroy);
+
+        }
         Destroy(gameObject);
     }
 }
