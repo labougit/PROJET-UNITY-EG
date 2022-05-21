@@ -7,7 +7,7 @@ public class Selected : MonoBehaviour
 
 
     LayerMask mask;
-    public float distance = 50f;
+    public float distance = 5f;
 
     //Partie affichage text
 
