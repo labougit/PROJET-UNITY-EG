@@ -37,6 +37,14 @@ public class PlayerAim : MonoBehaviour
                         }
                         hit.transform.GetComponent<DoorController>().OpenClose();
                     }
+                    else if (hit.transform.name == "bouton")
+                    {
+                        if (audioSource != null)
+                        {
+                            audioSource.PlayOneShot(sonporte);
+                        }
+                        hit.transform.GetComponent<BoutonController>().Open();
+                    }
                 }
             }
         }

@@ -7,8 +7,9 @@ public class DoorController : MonoBehaviour
     public bool lockedByPassword;
 
     public Animator anim;
+    public AudioSource audioSource;
     public AudioClip openDoor;
-    public AudioClip closeDoor;
+  
 
     public void OpenClose()
     {
@@ -18,7 +19,11 @@ public class DoorController : MonoBehaviour
             return;
         }
 
-        
+        if (audioSource != null)
+        {
+            audioSource.PlayOneShot(openDoor);
+        }
+
         anim.SetTrigger("Door");
     }
 
