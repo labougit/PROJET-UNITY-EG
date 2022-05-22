@@ -1059,7 +1059,7 @@ GameObject:
   - component: {fileID: 54682466}
   - component: {fileID: 56687906}
   - component: {fileID: 56687905}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer_Big2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1105,7 +1105,7 @@ GameObject:
   - component: {fileID: 54682470}
   - component: {fileID: 589993032}
   - component: {fileID: 589993031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer_Big1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1125,7 +1125,7 @@ GameObject:
   - component: {fileID: 54682472}
   - component: {fileID: 56687913}
   - component: {fileID: 56687911}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1159,7 +1159,7 @@ GameObject:
   - component: {fileID: 54682474}
   - component: {fileID: 56687917}
   - component: {fileID: 56687915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1191,7 +1191,7 @@ GameObject:
   - component: {fileID: 54682476}
   - component: {fileID: 56687920}
   - component: {fileID: 56687919}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 54682478}
   - component: {fileID: 56687922}
   - component: {fileID: 56687921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1327,7 @@ GameObject:
   - component: {fileID: 54682488}
   - component: {fileID: 56687929}
   - component: {fileID: 56687927}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer_Med2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1361,7 +1361,7 @@ GameObject:
   - component: {fileID: 54682490}
   - component: {fileID: 56687931}
   - component: {fileID: 56687930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer_Med2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1419,7 +1419,7 @@ GameObject:
   - component: {fileID: 54682494}
   - component: {fileID: 56687934}
   - component: {fileID: 56687933}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer_Med1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2353,7 +2353,7 @@ GameObject:
   - component: {fileID: 138064561}
   - component: {fileID: 138064560}
   - component: {fileID: 138064559}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: livre vierge (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5585,7 +5585,6 @@ GameObject:
   - component: {fileID: 645270375}
   - component: {fileID: 645270380}
   - component: {fileID: 645270379}
-  - component: {fileID: 645270378}
   m_Layer: 0
   m_Name: papier 2
   m_TagString: Untagged
@@ -5669,22 +5668,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645270373}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &645270378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645270373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a50286097dd09ee48b1eb128c8e41415, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 870861841}
-  playerCam: {fileID: 866109233}
-  throwForce: 10
-  rota: 10
 --- !u!65 &645270379
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10581,7 +10564,7 @@ GameObject:
   - component: {fileID: 1384146950}
   - component: {fileID: 1384146949}
   - component: {fileID: 1384146948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: livre vierge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13738,7 +13721,7 @@ GameObject:
   - component: {fileID: 1837875854}
   - component: {fileID: 1837875853}
   - component: {fileID: 1837875852}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: livre vierge (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13833,7 +13816,7 @@ GameObject:
   - component: {fileID: 1838491349}
   - component: {fileID: 1838491348}
   - component: {fileID: 1838491347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: livre vierge (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18864,7 +18847,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 637a71ef450266d4ca0459764c5a08b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20362,7 +20345,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 637a71ef450266d4ca0459764c5a08b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26663,7 +26646,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 637a71ef450266d4ca0459764c5a08b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29202,8 +29185,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8073372575590629688}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.14055419, y: 0.9115722, z: -2.652924}
-  m_LocalScale: {x: 89.739456, y: 89.739456, z: 89.739456}
+  m_LocalPosition: {x: -0.14055419, y: 0.839, z: -2.652924}
+  m_LocalScale: {x: 59.84365, y: 59.84365, z: 59.84365}
   m_Children: []
   m_Father: {fileID: 4049822728084206368}
   m_RootOrder: 125
@@ -30338,7 +30321,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 637a71ef450266d4ca0459764c5a08b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30738,7 +30721,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 637a71ef450266d4ca0459764c5a08b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30793,7 +30776,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 637a71ef450266d4ca0459764c5a08b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
