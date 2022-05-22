@@ -18,6 +18,7 @@ public class DoorController : MonoBehaviour
             return;
         }
 
+        
         anim.SetTrigger("Door");
     }
 

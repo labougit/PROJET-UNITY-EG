@@ -29,7 +29,7 @@ public class PlayerAim : MonoBehaviour
                     {
                         hit.transform.GetComponent<KeypadKey>().SendKey();
                     }
-                    else if(hit.transform.name=="DoorMesh")
+                    else if(hit.transform.name=="porte")
                     {
                         if (audioSource != null)
                         {
