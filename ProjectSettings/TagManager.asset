@@ -10,6 +10,7 @@ TagManager:
   - doorluke
   - tiroir
   - triggertiroir
+  - livredecale
   layers:
   - Default
   - TransparentFX
