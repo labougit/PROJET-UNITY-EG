@@ -8,6 +8,11 @@ public class OpenBox : MonoBehaviour
     private bool coroutineAllowed;
     private Vector3 initialPosition;
 
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip audioDestroy;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +41,7 @@ public class OpenBox : MonoBehaviour
                 transform.localPosition = new Vector3(transform.localPosition.x + 0.05f,
                     transform.localPosition.y,
                     transform.localPosition.z);
+                audioSource.PlayOneShot(audioDestroy);
                 yield return new WaitForSeconds(0f);
             }
             boxOpened = true;
@@ -48,6 +54,7 @@ public class OpenBox : MonoBehaviour
                 transform.localPosition = new Vector3(transform.localPosition.x - 0.05f,
                     transform.localPosition.y,
                     transform.localPosition.z);
+                audioSource.PlayOneShot(audioDestroy);
                 yield return new WaitForSeconds(0f);
             }
             transform.position = initialPosition;
