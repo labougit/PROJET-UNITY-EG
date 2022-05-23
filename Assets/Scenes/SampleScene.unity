@@ -489,7 +489,7 @@ PrefabInstance:
     - target: {fileID: 3806207026919079054, guid: a4bba8fe0a559ab49aa869ee91083e6c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 773205097639fad488660579c52dee7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 64b5fd42a813303419d9c2e3665e3144, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4bba8fe0a559ab49aa869ee91083e6c, type: 3}
 --- !u!1001 &20140888
@@ -1516,7 +1516,7 @@ PrefabInstance:
     - target: {fileID: -5517054805710026445, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 773205097639fad488660579c52dee7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 64b5fd42a813303419d9c2e3665e3144, type: 2}
     - target: {fileID: 919132149155446097, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Name
       value: knight1 (5)
@@ -8829,11 +8829,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.14
+      value: -5.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.08
+      value: -3.25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14982,7 +14982,7 @@ PrefabInstance:
     - target: {fileID: -5517054805710026445, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 773205097639fad488660579c52dee7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 64b5fd42a813303419d9c2e3665e3144, type: 2}
     - target: {fileID: 919132149155446097, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Name
       value: knight1 (1)
@@ -19359,7 +19359,7 @@ PrefabInstance:
     - target: {fileID: 3806207026919079054, guid: a4bba8fe0a559ab49aa869ee91083e6c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 773205097639fad488660579c52dee7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 64b5fd42a813303419d9c2e3665e3144, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4bba8fe0a559ab49aa869ee91083e6c, type: 3}
 --- !u!64 &1445837425
@@ -20417,7 +20417,7 @@ PrefabInstance:
     - target: {fileID: -5517054805710026445, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 773205097639fad488660579c52dee7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 64b5fd42a813303419d9c2e3665e3144, type: 2}
     - target: {fileID: 919132149155446097, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Name
       value: knight1 (3)
@@ -20666,7 +20666,7 @@ PrefabInstance:
     - target: {fileID: -5517054805710026445, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 773205097639fad488660579c52dee7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 64b5fd42a813303419d9c2e3665e3144, type: 2}
     - target: {fileID: 919132149155446097, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Name
       value: knight1
@@ -22300,7 +22300,7 @@ PrefabInstance:
     - target: {fileID: -5517054805710026445, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 773205097639fad488660579c52dee7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 64b5fd42a813303419d9c2e3665e3144, type: 2}
     - target: {fileID: 919132149155446097, guid: 2efe7e852a5807e419877af2cc25ff3c, type: 3}
       propertyPath: m_Name
       value: knight1 (4)
@@ -27001,7 +27001,7 @@ PrefabInstance:
     - target: {fileID: 3806207026919079054, guid: a4bba8fe0a559ab49aa869ee91083e6c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 773205097639fad488660579c52dee7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 64b5fd42a813303419d9c2e3665e3144, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4bba8fe0a559ab49aa869ee91083e6c, type: 3}
 --- !u!1 &2091919364
