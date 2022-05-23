@@ -21,7 +21,7 @@ public class PlayerAim : MonoBehaviour
             Debug.DrawRay(headPos.position, headPos.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
 
             float distance = Vector3.Distance(transform.position, hit.transform.position);
-            if (distance <= 3f)
+            if (distance <= 5f)
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -44,6 +44,12 @@ public class PlayerAim : MonoBehaviour
                             audioSource.PlayOneShot(sonporte);
                         }
                         hit.transform.GetComponent<BoutonController>().Open();
+                    }
+
+                    else if (hit.transform.name == "bouton_S2")
+                    {
+                        
+                        hit.transform.GetComponent<bouton_porte_s2>().Open_S2();
                     }
                 }
             }

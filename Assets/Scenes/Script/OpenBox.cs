@@ -36,29 +36,33 @@ public class OpenBox : MonoBehaviour
         coroutineAllowed = false;
         if (!boxOpened)
         {
+            audioSource.PlayOneShot(audioDestroy);
+
             for (float i = 0f; i <= 1f; i += 0.1f)
             {
                 transform.localPosition = new Vector3(transform.localPosition.x + 0.05f,
                     transform.localPosition.y,
                     transform.localPosition.z);
-                audioSource.PlayOneShot(audioDestroy);
                 yield return new WaitForSeconds(0f);
             }
             boxOpened = true;
+
         }
         else
         {
+            audioSource.PlayOneShot(audioDestroy);
+
             for (float i = 1f; i >= 0f; i -= 0.1f)
 
             {
                 transform.localPosition = new Vector3(transform.localPosition.x - 0.05f,
                     transform.localPosition.y,
                     transform.localPosition.z);
-                audioSource.PlayOneShot(audioDestroy);
                 yield return new WaitForSeconds(0f);
             }
             transform.position = initialPosition;
             boxOpened = false;
+
         }
         coroutineAllowed = true;
     }

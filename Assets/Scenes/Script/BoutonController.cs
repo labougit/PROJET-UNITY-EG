@@ -20,7 +20,7 @@ public class BoutonController : MonoBehaviour
             audioSource.PlayOneShot(openDoor);
         }
         
-
+            
             for (float i = 0f; i <= 1f; i += 0.1f)
             {
                 vollet1.transform.localPosition = new Vector3(vollet1.transform.localPosition.x-0.001f,
