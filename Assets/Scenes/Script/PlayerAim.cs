@@ -51,6 +51,11 @@ public class PlayerAim : MonoBehaviour
                         
                         hit.transform.GetComponent<bouton_porte_s2>().Open_S2();
                     }
+                    else if (hit.transform.name == "B")
+                    {
+
+                        hit.transform.GetComponent<CassageVITRE>().cassage();
+                    }
                 }
             }
         }
