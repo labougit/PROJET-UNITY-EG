@@ -7,6 +7,9 @@ public class DecaleChevalier : MonoBehaviour
     private bool boxOpened;
     private bool coroutineAllowed;
     private Vector3 initialPosition;
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip audioDestroy;
 
     // Start is called before the first frame update
     void Start()
@@ -31,11 +34,11 @@ public class DecaleChevalier : MonoBehaviour
         coroutineAllowed = false;
         if (!boxOpened)
         {
-
-            for (float i = 0f; i <= 3f; i += 0.5f)
+            audioSource.PlayOneShot(audioDestroy);
+            for (float i = 0f; i <= 30f; i += 0.01f)
             {
                 transform.localPosition = new Vector3(transform.localPosition.x,
-                    transform.localPosition.y + 0.5f,
+                    transform.localPosition.y + 0.001f,
                     transform.localPosition.z);
                 yield return new WaitForSeconds(0f);
             }
@@ -43,11 +46,12 @@ public class DecaleChevalier : MonoBehaviour
         }
         else
         {
-            for (float i = 3f; i >= 0f; i -= 0.5f)
+            audioSource.PlayOneShot(audioDestroy);
+            for (float i = 30f; i >= 0f; i -= 0.01f)
 
             {
                 transform.localPosition = new Vector3(transform.localPosition.x,
-                    transform.localPosition.y - 0.5f,
+                    transform.localPosition.y - 0.001f,
                     transform.localPosition.z );
                 yield return new WaitForSeconds(0f);
             }
