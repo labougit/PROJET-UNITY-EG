@@ -14,7 +14,7 @@ public class Selected : MonoBehaviour
     public Texture2D point;
     public GameObject TextDetect;
     GameObject Recofinal = null;
-
+    public Color couleur;
 
     // Start is called before the first frame update
     void Start()
@@ -32,11 +32,13 @@ public class Selected : MonoBehaviour
 
         if(Physics.Raycast(transform.position,transform.TransformDirection(Vector3.forward),out hit, distance,mask))
         {
+            //couleur = hit.transform.GetComponent<MeshRenderer>().material.color;
             Deselect();
             SelectedObject(hit.transform);
+           
 
 
-            if(hit.collider.tag == "Objet interactif")
+            if (hit.collider.tag == "Objet interactif")
             {
 
                 if(Input.GetKeyDown(KeyCode.E))
@@ -93,9 +95,15 @@ public class Selected : MonoBehaviour
         Recofinal = transform.gameObject;
     }
 
+
+
+
+
     void Deselect()
     {
-        if(Recofinal)
+      
+
+        if (Recofinal)
         {
             Recofinal.GetComponent<Renderer>().material.color = Color.white;
             Recofinal = null;
