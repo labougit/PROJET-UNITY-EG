@@ -14,6 +14,7 @@ public class KeypadController : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip correctSound;
     public AudioClip wrongSound;
+    public AudioClip Do;
 
     private void Start()
     {
@@ -37,6 +38,7 @@ public class KeypadController : MonoBehaviour
         if(length<passwordLimit)
         {
             passwordText.text = passwordText.text + number;
+            audioSource.PlayOneShot(Do);
         }
     }
 

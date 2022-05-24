@@ -11,7 +11,10 @@ public class PlayerAim : MonoBehaviour
     [Header("Audio")]
     public AudioSource audioSource;
     public AudioClip sonporte;
-    
+    public AudioClip Do;
+
+
+
 
     private void Update()
     {
@@ -29,6 +32,18 @@ public class PlayerAim : MonoBehaviour
                     {
                         hit.transform.GetComponent<KeypadKey>().SendKey();
                     }
+
+                    if (hit.transform.GetComponent<KeypadKey>() != null)
+                    {
+                        if (hit.transform.name == "p")
+                        {
+
+                            audioSource.PlayOneShot(Do);
+                        }
+                        hit.transform.GetComponent<KeypadKey>().SendKey();
+                        
+                    }
+
                     else if(hit.transform.name=="porte")
                     {
                         if (audioSource != null)
