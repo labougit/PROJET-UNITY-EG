@@ -9740,7 +9740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: c
+  key: a
 --- !u!65 &518046380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18258,7 +18258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 941076193}
-  password: abcd
+  password: abmd
   passwordLimit: 4
   passwordText: {fileID: 2486174541626524561}
   audioSource: {fileID: 472839646}
@@ -18729,7 +18729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: a
+  key: c
 --- !u!65 &1002461866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22046,7 +22046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: d
+  key: b
 --- !u!65 &1190786452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25555,7 +25555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: b
+  key: d
 --- !u!65 &1445834437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34549,7 +34549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad417d3f96eb4c82a2aadba082d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: h
+  key: m
 --- !u!114 &1987128709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37445,7 +37445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aed9c6a7e1c29c346a83928943071a58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 46.16632
+      value: 45.99
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aed9c6a7e1c29c346a83928943071a58, type: 3}
       propertyPath: m_LocalPosition.z
@@ -46007,7 +46007,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: h
+  m_Text: m
 --- !u!224 &3028363558404420579
 RectTransform:
   m_ObjectHideFlags: 0
