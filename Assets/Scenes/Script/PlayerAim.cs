@@ -40,7 +40,6 @@ public class PlayerAim : MonoBehaviour
 
                             audioSource.PlayOneShot(Do);
                         }
-                        hit.transform.GetComponent<KeypadKey>().SendKey();
                         
                     }
 
